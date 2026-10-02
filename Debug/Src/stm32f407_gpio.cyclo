@@ -1,0 +1,4 @@
+../Src/stm32f407_gpio.c:23:6:GPIO_Init	15
+../Src/stm32f407_gpio.c:120:6:GPIO_DeInit	10
+../Src/stm32f407_gpio.c:153:6:GPIO_PeriClkControl	20
+../Src/stm32f407_gpio.c:209:6:GPIO_ToggleOutputPin	1
