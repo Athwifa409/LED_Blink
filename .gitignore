@@ -1,0 +1,22 @@
+# Renode temporary/log files
+*.log
+*.tmp
+
+# STM32CubeIDE generated build folders
+Debug/
+Release/
+
+# STM32CubeIDE IDE settings
+.settings/
+
+# Compiled output
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+
+# Backup files
+*.bak
+*~
