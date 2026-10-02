@@ -1,0 +1,9 @@
+using sysbus
+
+mach create "STM32F4_Discovery"
+
+machine LoadPlatformDescription @platforms/boards/stm32f4_discovery-kit.repl
+
+sysbus LoadELF @C:\Users\athwi\OneDrive\Desktop\Athwifa409\LED_Blink\Debug\LED_Blink.elf
+
+start

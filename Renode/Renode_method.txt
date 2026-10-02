@@ -1,0 +1,56 @@
+(monitor) i @C:/Users/athwi/OneDrive/Desktop/Athwifa409/LED_Blink/Renode/LED_Blink.resc                                                                                          
+Starting emulation...
+
+(STM32F4_Discovery) pause
+Pausing emulation...
+
+(STM32F4_Discovery) sysbus.cpu PC
+0x80001d4
+
+(STM32F4_Discovery) sysbus FindSymbolAt `sysbus.cpu PC`
+delay
+
+(STM32F4_Discovery) sysbus.gpioPortD
+The following methods are available:
+ - Void DebugLog (String message)
+ - Void ErrorLog (String message)
+ - Endianess GetEndianness (Endianess? defaultEndianness = null)
+ - IEnumerable<Tuple<String,IGPIO>> GetGPIOs ()
+ - IGPIOReceiver GetLocalReceiver (Int32 pin)
+ - IMachine GetMachine ()
+ - String GetName ()- Int32 GetPeripheralInputCount ()
+ - Boolean HasGPIO ()
+ - Void InfoLog (String message)
+ - Boolean IsHostEndian ()
+ - Void Log (LogLevel type, String message)
+ - Void LogUnhandledRead (Int64 offset)
+ - Void LogUnhandledWrite (Int64 offset, UInt64 value)
+ - Void NoisyLog (String message)
+ - Void OnGPIO (Int32 number, Boolean value)
+ - Byte ReadByteNotTranslated (Int64 address)
+ - Byte ReadByteUsingDoubleWord (Int64 address)
+ - Byte ReadByteUsingDoubleWordBigEndian (Int64 address)
+ - UInt32 ReadDoubleWord (Int64 offset)
+ - UInt32 ReadDoubleWordBigEndian (Int64 address)
+ - UInt32 ReadDoubleWordNotTranslated (Int64 address)
+ - UInt64 ReadQuadWordNotTranslated (Int64 address)
+ - UInt64 ReadQuadWordUsingDoubleWord (Int64 address)
+ - UInt64 ReadQuadWordUsingDoubleWordBigEndian (Int64 address)
+ - UInt16 ReadWordNotTranslated (Int64 address)
+ - UInt16 ReadWordUsingDoubleWord (Int64 address)
+ - UInt16 ReadWordUsingDoubleWordBigEndian (Int64 address)
+ - Void Reset ()
+ - Void ShowAnalyzer (String analyzerTypeName = null, String externalName = null)
+ - Void Unregister (IGPIOSender peripheral)
+ - Void Unregister (IGPIOReceiver peripheral)Usage:
+ sysbus.gpioPortD MethodName param1 param2 ...
+
+(STM32F4_Discovery) start
+Starting emulation...
+
+(STM32F4_Discovery) sysbus LogPeripheralAccess gpioPortD true
+
+(STM32F4_Discovery) pause
+Pausing emulation...
+
+ 
